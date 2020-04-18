@@ -43,11 +43,20 @@
                                 <state key="normal" title="CALCULATE">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateTotalPrice:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AG7-mF-aFV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="calculateButton" destination="fqe-Sv-RXg" id="7eP-uA-c2I"/>
+                        <outlet property="priceText" destination="ugt-lf-PJA" id="DsS-6U-krq"/>
+                        <outlet property="salesTaxText" destination="YT6-c3-pa3" id="0q3-iI-BEm"/>
+                        <outlet property="totalPriceLabel" destination="H13-xD-SrM" id="bML-jm-c47"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
