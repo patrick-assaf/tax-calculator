@@ -52,7 +52,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="calculateButton" destination="fqe-Sv-RXg" id="7eP-uA-c2I"/>
                         <outlet property="priceText" destination="ugt-lf-PJA" id="DsS-6U-krq"/>
                         <outlet property="salesTaxText" destination="YT6-c3-pa3" id="0q3-iI-BEm"/>
                         <outlet property="totalPriceLabel" destination="H13-xD-SrM" id="bML-jm-c47"/>
