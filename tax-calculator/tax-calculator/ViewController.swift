@@ -16,11 +16,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        totalPriceLabel.text = ""
     }
 
     @IBAction func calculateTotalPrice(_ sender: Any) {
+        let price = Double(priceText.text!)!
+        let salesTax = Double(salesTaxText.text!)!
         
+        let totalSalesTax = price * salesTax
+        let totalPrice = price + totalSalesTax
+        totalPriceLabel.text = "$\(totalPrice)"
     }
     
 }
